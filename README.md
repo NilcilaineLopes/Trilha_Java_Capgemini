@@ -36,9 +36,9 @@
             Fundamentos em CSS
             </p>
             <img src="https://img.icons8.com/color/60/undefined/css3.png" /><br />
-            <img src="https://img.icons8.com/nolan/30/in-progress.png" />  
             <p>
               Aula 01 - Boas Vindas
+              <img src="https://img.icons8.com/nolan/30/in-progress.png" />  
             </p>
           </div>  
     </div>
