@@ -32,13 +32,13 @@
             <p class="text-capitalize">
                 Assunto abordado: Estrutura do HTML5 e prática
             </p>
-            <p>
-            Fundamentos em CSS
-            </p>
             <img src="https://img.icons8.com/color/60/undefined/css3.png" /><br />
+            <h4>
+              Fundamentos em CSS
+            <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/30/000000/external-check-multimedia-kiranshastry-gradient-kiranshastry.png" /> 
+            </h4>
             <p>
-              Aula 01 - Boas Vindas
-              <img src="https://img.icons8.com/nolan/30/in-progress.png" />  
+                Conteúdo: Sintaxe, Cor, Aspectos do Fundo, Fonte, Texto, Links e Dimensões.
             </p>
           </div>  
     </div>
