@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Número aleatório</title>
+    <script>
+        
+        //Exibir número aleatório
+
+        //alert(Math.random());
+
+        var numero = Math.random() * 100;
+
+        alert(Math.round(numero));
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
