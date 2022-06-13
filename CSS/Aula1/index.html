@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
         <title> CSS </title>
     </head>
     <body>
@@ -11,26 +12,32 @@
             <h1> Aula de CSS </h1>
         </header>
         <main>
+            <h1>
+                Lista de aulas
+            </h1>
             <article>
-                <h2>
+                <h2 class="titulo-aula texto-azul" id="titulo-primeira-aula">
                     Primeira Aula
                 </h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin 
-                    pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae 
-                    volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa.
+                    pellentesque. <a href = "http://google.com"> Nunc</a> posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae 
+                    volutpat. <span class="comentario"> este é um comentário</span>. Aliquet porttitor venenatis.
+                     Donec a dui et dui fringilla consectetur id <a href = "http://globo.com">nec</a> massa.
                     Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia 
-                    lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. 
+                    lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus.
+                    <span class="comentario texto-vermelho"> este é um comentário</span> 
                     In adipiscing ultrices tellus, in suscipit massa vehicula.
                 </p>
-                <h2 style="color:red;text-decoration:nome;">
+                <h2 class="titulo-aula texto-vermelho" id="titulo-segunda-aula">
                     Segunda Aula
                 </h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin 
                     pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae 
                     volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa.
-                    Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia 
+                    Aliquam erat volutpat. <span class="comentario"> este é um comentário</span>. Sed ut dui ut lacus 
+                    dictum fermentum vel tincidunt neque. Sed sed lacinia 
                     lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. 
                     In adipiscing ultrices tellus, in suscipit massa vehicula.
                 </p>
