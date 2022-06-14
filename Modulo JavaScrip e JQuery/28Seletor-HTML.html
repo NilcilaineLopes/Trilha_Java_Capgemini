@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>seletor HTML</title>
+    <script>
+        
+        function acao(){
+            var texto = document.getElementsByTagName("h1")[0];
+
+            //Exebir o conteúdo do h1
+
+            alert(texto.innerHTML);
+        }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="acao()">Selecionar</button>
+
+    <h1>Capgemini</h1>
+    <h1>Seletores JS</h1>
+    <h1>Treinamento Start By Capgemini</h1>
+</body>
+</html>
