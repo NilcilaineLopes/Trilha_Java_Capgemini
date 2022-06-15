@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir e ocultar</title>
+
+    <script src="jquery/dist/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            //Exibir
+            $("#exibir").click(function(){
+                
+                $("img").show();
+            })
+
+            //Ocultar
+            $("#ocultar").click(function(){
+                
+                $("img").hide();
+            })
+
+        });
+
+    </script>
+
+</head>
+    <body>
+
+        <button id="exibir">Exibir</button>
+        <button id="ocultar">ocultar</button>
+
+        <br>
+
+        <img src="capgemini-logo.jpg" alt="logo Capgemini">
+        
+    </body>
+</html>
