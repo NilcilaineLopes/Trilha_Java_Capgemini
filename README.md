@@ -40,6 +40,14 @@
             <p>
                 Conteúdo: Sintaxe, Cor, Aspectos do Fundo, Fonte, Texto, Links e Dimensões.
             </p>
+            <h4>
+              JavaScrip e jQuery
+             <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/30/000000/external-check-multimedia-kiranshastry-gradient-kiranshastry.png"/> 
+            </h4>
+            <p>
+             <img src="https://img.icons8.com/fluency/48/undefined/javascript.png"/ > <img src="https://img.icons8.com/ios/50/undefined/jquery.png"/ > <br> 
+                Conteúdo: Funções, Eventos e Seletores de Conteúdo.
+            </p>
           </div>  
     </div>
 </div>
