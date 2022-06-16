@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./segundo-componente.component.css']
 })
 export class SegundoComponenteComponent {
-  nome = "Nilci";
-  dataNascimento = "1996-10-01"
+  nome = "Pipi";
+  dataNascimento = "2020-10-06";
+  urlImagem = "/assets/pipi.jpeg";
 
 }
