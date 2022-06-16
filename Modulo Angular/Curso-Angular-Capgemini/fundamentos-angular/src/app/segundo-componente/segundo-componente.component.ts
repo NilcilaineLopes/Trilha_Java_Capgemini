@@ -10,4 +10,8 @@ export class SegundoComponenteComponent {
   dataNascimento = "2020-10-06";
   urlImagem = "/assets/pipi.jpeg";
 
+  mostrarDataNascimento() {
+    alert(`A data de nascimento do pipi é: ${this.dataNascimento}`);
+  }
+
 }
