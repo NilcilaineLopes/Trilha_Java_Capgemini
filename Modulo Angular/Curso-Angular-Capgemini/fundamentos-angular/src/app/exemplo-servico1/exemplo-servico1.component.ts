@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './exemplo-servico1.component.html',
   styleUrls: ['./exemplo-servico1.component.css']
 })
-export class ExemploServico1Component implements OnInit {
+export class ExemploServico1Component {
+  nome = "";
 
-  constructor() { }
-
-  ngOnInit(): void {
+  adcionarNome() {
+    console.log(`O nome ${this.nome} foi adicionado`);
   }
-
 }
