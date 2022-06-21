@@ -11,8 +11,8 @@ export class LoggerService {
     this.mensagens.push(mensagem);
   }
 
-    exibeTodosOsLogs() {
-      console.log(this.mensagens);
-    }
+  exibeTodosOsLogs() {
+    console.log(this.mensagens);
+  }
 
 }
