@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-pagina-protegida',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaginaProtegidaComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private auth: AuthService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  logout() {
+    this.auth.logout();
+    this.router.navigate([""]);
   }
 
 }
