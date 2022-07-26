@@ -7,7 +7,7 @@ import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.componen
 const routes: Routes = [
   {path: "primeira-pagina", component: PrimeiraPaginaComponent },
   {path: "segunda-pagina", component: SegundaPaginaComponent },
-  { path: "pagina-com-paramentros/:id", component: PaginaComParamentrosComponent },
+  {path: "pagina-com-paramentros/:id", component: PaginaComParamentrosComponent },
 ]
 
 @NgModule({
