@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: "pagina-com-paramentros/:id", component: PaginaComParamentrosComponent },
   { path: 'lazy-loading', loadChildren: () => import('./lazy-loading/lazy-loading.module').then(m => m.LazyLoadingModule) },
   { path: "pagina-protegida", component: PaginaProtegidaComponent, canActivate: [AuthGuard] },
-  { path: "login", component: LoginComponent},
+  { path: "login", component: LoginComponent}
 ]
 
 @NgModule({
